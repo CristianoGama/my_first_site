@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: #f1f1f1;
+    position: relative;
+}
+
+.media-social{
+    position: absolute;
+    bottom: 30px;
+    right: 50%;
+    transform: translate(50%);
+}
+
+.media-social a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #151c48;
+    color: white;
+    margin: 0 100px; 
+    border-radius: 50%; 
+    text-align: center; 
+    line-height: 40px; 
+    transition: 0.4s;
+    font-size: 18px;
+    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.712);;
+}
+
+.media-social a:hover{
+    background: #2c3e50;
+}
+
+.media-social a i{
+    transition: 0.4s all;
+}
+
+.media-social a:hover > i{
+transform: scale(1.5) rotate(25deg);
+}
